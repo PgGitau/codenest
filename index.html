@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
+
+    <!-- JS -->
+    <script src="./resources/nav.js" defer></script>
+    <script src="./resources/observers.js" defer></script>
+
+    <title>codeNest Web Development</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link href="./resources/fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.webp">
+    <link rel="manifest" href="./resources/favicon/site.webmanifest">
+</head>
+
+<body>
+    <!-- LOGO AND NAV BAR SECTION -->
+    <header class="primary-header flex">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="./index.html">codeNest&#174;</a> 
+        </div>
+
+        <!-- NAV BAR -->
+        <nav>
+            <ul id="primary-navigation" class="primary-navigation flex">
+                <li><a href="./pages/about/about.html">About Us</a></li>
+                <li><a href="#form">Contact-Us</a></li>
+                <li><a href="./pages/gallery/gallery.html">Portfolio</a></li>
+            </ul>
+        </nav>
+
+        <!-- MOBILE NAV BAR -->
+        <div class="burger" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="menu-text">MENU</span>
+            <span class="close-text">CLOSE</span>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-container">
+            <div class="hero-text">
+                <h1>Propel your business to the next <span class="tilt">level.</span></h1>
+                <p>Get a website <span class="bold">today</span> and engage a wider audience to increase sales.
+                    <span class="bold">codeNest&#174;</span> is trusted by different companies and startups as the No.1 Web Development company.</p>
+                <div class="cta-btn">
+                    <a class="contact-cta" href="tel:+254724310759">Contact Us Now&nbsp;<span class="fa-solid fa-phone"></span></a>
+                    <a class="learn-cta" href="">Learn More&nbsp;<span class="fa-solid fa-arrow-up-right-from-square"></span></a>
+                </div>
+            </div>
+            <div class="hero-images">
+                <div class="hero-image"></div>
+            </div>
+        </section>
+
+
+        <!-- BRANDS SECTION -->
+        <section class="companies-container">
+            <h1 class="companies-header">Trusted & Loved</h1>
+            <div class="companies">
+                <div class="company-logos turkana"></div>
+                <div class="company-logos dodddle"></div>
+                <div class="company-logos myhomeland"></div>
+                <div class="company-logos techwheezy"></div>
+                <div class="company-logos travvely"></div>
+                <div class="company-logos snip"></div>
+            </div>
+        </section>
+
+        <!-- WHAT WE DO SECTION -->
+        <section class="what-container">
+            <div class="what-header">
+                <h1>What we do to help you grow faster:</h1>
+            </div>
+            
+            <div class="what-contents">
+                <div class="what-content design slide-in left">
+                    <h1 class="content-header">Web Design</h1>
+                    <p id="what-one" class="content-paragraph">We design the best-fitting solutions resulting with a perfectly shaped web product concept and fascinating user experience.</p>
+                </div>
+    
+                <div class="what-content develop slide-in right">
+                    <h1 class="content-header">Web Development</h1>
+                    <p id="what-two" class="content-paragraph">We develop scalable, secure, high-performance, and custom websites to deliver a superior customer experience.</p>
+                </div>
+    
+                <div class="what-content security slide-in left">
+                    <h1 class="content-header">Web Security</h1>
+                    <p id="what-three" class="content-paragraph">We offer top security solutions to ensure your website is safe for your clients.</p>
+                </div>
+
+                <div class="what-content seo slide-in right">
+                    <h1 class="content-header">SEO</h1>
+                    <p id="what-four" class="content-paragraph">We improve the quality and quantity of website traffic to your website from search engines.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- WHY-US SECTION -->
+        <section class="whyus-container">
+            <div class="whyus-header">
+                <h1>Reasons why we are the right fit for you.</h1>
+            </div>
+
+            <div class="whyus-main">
+                <div class="whyus-content quality">
+                    <span><i class="fa-solid fa-ranking-star"></i></span>
+                    <h1>Quality</h1>
+                    <p>Get Top-quality websites that satisfies your needs.</p>
+                </div>
+                <div class="whyus-content experience">
+                    <span><i class="fa-solid fa-users-gear"></i></span>
+                    <h1>Vast Experience</h1>
+                    <p>5+ years in web development.</p>
+                </div>
+                <div class="whyus-content development">
+                    <span><i class="fa-solid fa-window-maximize"></i></span>
+                    <h1>Solid Development</h1>
+                    <p><a href="">View our portfolio</a> to see the projects developed by us.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT-US SECTION -->
+        <section class="contact-container">
+            <div class="contact-info">
+                <h1>Let's get started. Request a <span class="italics">free</span>  quote today!</h1>
+
+                <div class="contact-btn">
+                    <a href="tel:+254724310759">
+                        <span class="fa-solid fa-phone"></span>
+                        <span class="button-text">&nbsp;CALL US NOW<br>+254 724 310 759</span>
+                    </a>
+                </div>
+
+                <p>or fill the form below for more information:</p>
+            </div>
+
+            <div class="contact-form">
+                <form class="form" id="form" action="https://formspree.io/f/mjvdajyo" method="POST">
+                    <!-- HONEYPOT(to catch spammers ) -->
+                    <input type="text" name="_honey" style="display: none">
+        
+                    <div class="form-control name">
+                        <label for="name" class="block">Full Name</label>
+                        <input type="text" placeholder="John Doe" id="name" name="name" required>
+                    </div>
+        
+                    <div class="form-control email">
+                        <label for="email" class="block">Email</label>
+                        <input type="email" placeholder="johndoe@gmail.com" id="email" name="email" required>
+                    </div>
+        
+                    <div class="form-control phone">
+                        <label for="phone" class="block">Telephone Number</label>
+                        <input type="number" placeholder="0700 000 000" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-control webfor">
+                        <label for="webfor" class="block">What's the website for?</label>
+                        <input type="text" placeholder="E-Commerce, Business, Blog" id="webfor" name="Website&nbsp;For">
+                    </div>
+
+                    <div class="form-control budget">
+                        <label for="budget" class="block">What's your budget?</label>
+                        <select name="budget" id="budget">
+                            <option value="below 10000">below Ksh 10,000</option>
+                            <option value="10000 to 30000">between 10,000 and 30,000</option>
+                            <option value="above 30000">above 30,000</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-control message">
+                        <label for="message" class="block">Message / Question</label>
+                        <textarea placeholder="Write your Message Here" id="message" name="message&nbsp;comments" required></textarea>
+                    </div>
+        
+                    <div class="form-control terms-link form-terms">
+                        <input class="fit-content" type="checkbox" id="terms" name="terms" value="accept" required>
+                        <label for="terms" class="inline">I have read and agreed to codeNest's <a href="">Terms and
+                                Conditions</a> and the <a href="">Global Privacy Statement</a> on Data
+                            protection</label>
+                    </div>
+        
+                    <div class="form-control form-btn form-submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+         <!-- Portfolio Section -->
+        <section class="portfolio-container">
+            <div class="portfolio-header">
+                <h1>The Variety of Projects We've done</h1>
+            </div> 
+            <div class="portfolio-list"></div>   
+        </section>
+
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials-container">
+            <div class="testimonials-header">
+                <h1>What Our Clients Say: </h1>
+            </div>
+            <div class="testimonials">
+                <div class="testimony">
+                    <span><i class="fa-solid fa-quote-left"></i></span>
+                    <p class="testimony-text">The design is clean and modern, and the user experience is intuitive. We've already seen an increase in traffic and
+                        engagement since the site went live.
+                    </p>
+                    <img src="./resources/images/man1.jpg" alt="man's face">
+                    <h1>John Liu</h1>
+                    <p class="title">Owner, Turkana LLC.</p>
+                </div>
+
+                <div class="testimony">
+                    <span><i class="fa-solid fa-quote-left"></i></span>
+                    <p class="testimony-text">The website you created is exactly what we needed. The navigation is easy to use, and the visuals are stunning. We've received positive feedback from our customers and have already seen an
+                        increase in sales.
+                    </p>
+                    <img src="./resources/images/man2.jpg" alt="man's face">
+                    <h1>Gabriel Eli</h1>
+                    <p class="title">CEO, Snip LLC.</p>
+                </div>
+
+                <div class="testimony ellis">
+                    <span><i class="fa-solid fa-quote-left"></i></span>
+                    <p class="testimony-text">I'm so impressed with the level of customization and attention to detail you provided on our website. You went above and beyond to make sure we were happy with
+                        the final product, and we couldn't be happier.
+                    </p>
+                    <img src="./resources/images/woman1.jpg" alt="woman's face">
+                    <h1>Jane Ellis</h1>
+                    <p class="title">Sales Manager, Techwheezy.</p>
+                </div>
+
+                <div class="testimony">
+                    <span><i class="fa-solid fa-quote-left"></i></span>
+                    <p class="testimony-text">Thank you for creating a website that truly represents our brand and message. The content is informative and
+                        engaging, and the design is visually appealing.
+                    </p>
+                    <img src="./resources/images/woman2.jpg" alt="woman's face">
+                    <h1>Sasha Martins</h1>
+                    <p class="title">Owner, Travvely.</p>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <!-- CTA SECTION -->
+        <section class="cta-container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h1>LIMITED TIME OFFER ONLY!! Get upto 10% OFF your first website. <span class="green">*</span></h1>
+                </div>
+
+                <div class="cta-actionbtn">
+                    <a href="tel:+254724310759">CONTACT US NOW</a>
+                </div>
+            </div>
+            <!-- for above 10,000ksh -->
+            <p><span class="green">*</span>Terms & Conditions Apply</p>
+        </section>
+
+
+        <!-- FAQ section -->
+        <section class="faq-container">
+            <h1>Do you have any Questions. View the FAQs below or <a href="tel:+254724310759">Contact Us</a></h1>
+            <div class="accordion">
+                <div>
+                    <input type="checkbox" name="faq-accordion" id="question1" class="accordion-input">
+                    <label for="question1" class="accordion-label">&#x2022; What is the average cost for a website?</label>
+                    <div class="accordion-content">
+                        <p>The average cost for a website can vary greatly depending on many factors such as the type of website, its complexity, features, design requirements, and the level of expertise required to build it.
+                            For a rough estimate please send the details of your website by filling the <a href="#form">form above.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="faq-accordion" id="question2" class="accordion-input">
+                    <label for="question2" class="accordion-label">&#x2022; How long will I wait for my website to be ready?</label>
+                    <div class="accordion-content">
+                        <p>The time it takes to build a website can vary depending on various factors such as the complexity of the website, its
+                            features, and the level of customization required. For a simple website with a few pages, it may take anywhere from
+                            a few days to a couple of weeks to complete. On the other hand, a more complex website with advanced functionality,
+                            custom designs, and integrations may take several weeks or even months to complete.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="faq-accordion" id="question3" class="accordion-input">
+                    <label for="question3" class="accordion-label">&#x2022; Where do I start?</label>
+                    <div class="accordion-content">
+                        <p> Give us a call at <a href="tel:+254724310759">+254 724 310 759</a> or fill the <a href="#form">form above </a> to get in touch with us.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="faq-accordion" id="question4" class="accordion-input">
+                    <label for="question4" class="accordion-label last">&#x2022; Do you offer technical support  24/7?</label>
+                    <div class="accordion-content">
+                        <p>Yes. We offer support 24/7 in all business days from Monday to Friday. Just Call or text us at <a href="tel:+254724310759">+254 724 310 759 </a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- FOOTER SECTION -->
+    <footer>
+        <section class="footer-container">
+            <div class="quick-links footer-types">
+                <h1>Quick Links</h1>
+                <div class="footer-links">
+                    <a href="#form">Contact Us</a>
+                    <a href="">Portfolio</a>
+                    <a href="">About Us</a>
+                    <a href="./pages/terms/terms.html">Terms and Conditions</a>
+                    <a href="./pages/attribution/attribution.html">Attributions</a>
+                </div>
+            </div>
+
+
+            <div class="socials footer-types">
+                <h1>Socials</h1>
+                <div class="footer-links" id="social">
+                    <a href="https://facebook.com" target="_blank" class="facebook"><span class="fa-brands fa-square-facebook"></span></a>
+                    <a href="https://instagram.com" target="_blank"><span class="fa-brands fa-square-instagram"></span></a>
+                    <a href="https://twitter.com" target="_blank"><span class="fa-brands fa-square-twitter"></span></a>
+                    <a href="https://youtube.com" target="_blank"><span class="fa-brands fa-square-youtube"></span></a>
+                </div>
+            </div>
+        </section>
+        <p class="footer-text">&copy;codeNest Inc, 2022 | All rights Reserved | Made with <span class="fa-solid fa-heart"></span> by <a href="https://github.com/pggitau" target="_blank">R3t3p</a></p>
+    </footer>
+
+    <!-- typed effect -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Sniptech&#174;", "Web Designers",  "Web Developers"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script> -->
+</body>
+</html>
