@@ -394,7 +394,7 @@ main {
     animation-name: slidein;
     /* border: 2px solid red; */
 
-    background-image: url("../images/hero3.2.jpg");
+    background-image: url("../images/hero.webp");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -590,150 +590,6 @@ main {
 }
 
 
-
-/* COMPANIES/BRANDS SECTION */
-.companies-container {
-    /* background-color: #031d44; */
-    /* background-color: #d5886f46; */
-    text-align: center;
-    margin-block: 3.5rem;
-    padding: 1rem;
-    /* border-block: 2px solid black; */
-    /* background-color: #0c1821;
-    color: #d7cccc; */
-
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-    gap: 2rem;
-}
-.companies-header {
-    /* border: 2px solid yellow; */
-    text-decoration: underline;
-    font-size: 1.4rem;
-}
-.companies { 
-    /* border-block: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-}
-.company-logos {
-    /* border: 2px solid black; */
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.turkana, .dodddle, 
-.myhomeland, .techwheezy,
-.travvely, .snip {
-    height: 100px;
-}
-.turkana {
-    background-image: url("../images/turkana-logos_black\ \(1\).png");
-}
-.dodddle {
-    background-image: url("../images/dodddle-logos_black.png");
-}
-.myhomeland {
-    background-image: url("../images/myHomeLand-logos_black.png");
-}
-.techwheezy {
-    background-image: url("../images/techwheezy-logos_black.png");
-}
-.travvely {
-    background-image: url("../images/travvely-logos_black.png");
-}
-.snip {
-    background-image: url("../images/Snip-logos_black\ \(1\).png");
-}
-
-/* COMPANIES/BRANDS media queries */
-@media (max-width: 376px) {
-    .turkana {
-        background-image: url("../images/turkana.png");
-    }
-    .dodddle {
-        background-image: url("../images/dodddle.png");
-    }
-    .myhomeland {
-        background-image: url("../images/myHomeLand.png");
-    }
-    .techwheezy {
-        background-image: url("../images/techwheezy.png");
-    }
-    .travvely {
-        background-image: url("../images/travvely.png");
-    }
-    .snip {
-        background-image: url("../images/Snip.png");
-    }
-}
-@media (min-width: 321px) {
-    .companies { 
-        /* border: 2px solid red; */
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem; 
-    }
-    .company-logos {
-        /* border: 2px solid red; */
-        min-width: 150px;
-    }
-}
-@media (min-width: 376px) {
-    .companies { 
-        gap: 2rem; 
-    }
-    .companies-header {
-        font-size: 1.8rem;
-    }
-}
-/* non-mobile */
-@media (min-width: 641px) {
-    .companies-container {
-        align-items: center;
-    }
-    /* .companies-header {
-        font-size: 2.3rem;
-        letter-spacing: .3rem;
-    } */
-    .companies { 
-        width: 600px;
-    }
-}
-@media (min-width: 768px) {
-    .companies { 
-        /* border: 2px solid yellow; */
-        gap: 2.5rem;
-        width: 700px;
-    }
-}
-@media (min-width: 1024px) {
-    .companies { 
-        /* border: 2px solid yellow; */
-        flex-wrap: nowrap;
-        gap: 1rem;
-        width: 100%;
-    }
-    /* .company-logos {
-        border: 2px solid red;
-    } */
-}
-@media (min-width: 1170px) {
-    .companies { 
-        /* border: 2px solid yellow; */
-        flex-wrap: nowrap;
-        gap: 2.5rem;
-        width: 100%;
-    }
-     /* .company-logos {
-        border: 2px solid red;
-    } */
-}
-
-
-
 /* WHAT WE DO SECTION */
 .what-container {
     /* border: 2px solid rgb(230, 230, 236); */
@@ -834,16 +690,16 @@ main {
     display: none;
 }
 .design {
-    background-image: url("../images/design.jpg");
+    background-image: url("../images/design.webp");
 }
 .develop {
-    background-image: url("../images/development.jpg");
+    background-image: url("../images/development.webp");
 }
 .security {
-    background-image: url("../images/3567818.jpg");
+    background-image: url("../images/security.webp");
 }
 .seo {
-    background-image: url("../images/SEO1.jpg");
+    background-image: url("../images/SEO.webp");
 }
 
 
