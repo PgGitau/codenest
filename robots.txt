@@ -1,0 +1,4 @@
+User-agent: Googlebot-Image
+Disallow: /
+
+Sitemap: https://codenest.co.ke/sitemap.xml

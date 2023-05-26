@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://codenest.co.ke/</loc>
+      <image:image>
+        <image:loc>https://codenest.co.ke/resources/images/hero.webp</image:loc>
+      </image:image>
+
+      <image:image>
+        <image:loc>https://codenest.co.ke/resources/images/design.webp</image:loc>
+      </image:image>
+
+      <image:image>
+        <image:loc>https://codenest.co.ke/resources/images/development.webp</image:loc>
+      </image:image>
+
+      <image:image>
+        <image:loc>https://codenest.co.ke/resources/images/security.webp</image:loc>
+      </image:image>
+      
+      <image:image>
+        <image:loc>https://codenest.co.ke/resources/images/SEO.webp</image:loc>
+      </image:image>
+
+      <lastmod>2023-05-26</lastmod>
+
+   </url>
+
+</urlset> 
